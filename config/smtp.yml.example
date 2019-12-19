@@ -1,0 +1,13 @@
+# mailcatcher
+development:
+  address: localhost
+  port: 1025
+  openssl_verify_mode: none
+
+production:
+  address: smtp.chl.cz
+  port: 587
+  user_name: account@vmin.cz
+  password: password
+  openssl_verify_mode: peer
+  ca_file: /etc/ssl/certs/ca-certificates.crt
